@@ -1,0 +1,17 @@
+#include "mpc_topol.top"
+#include "mel_topol.top"
+#include "amber99sb-ildn.ff/tip3p.itp"
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+NP in water
+
+
+[ molecules ]
+; Compound        nmols
+ NP 1
+ Protein 2
+
+SOL         32324
+CL               12
